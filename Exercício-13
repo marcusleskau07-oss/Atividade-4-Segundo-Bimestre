@@ -1,0 +1,28 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro n1, n2, n3, n4, n5, soma, media
+
+        escreva("Informe um número: ")
+        leia(n1)
+
+        escreva("Informe outro número: ")
+        leia(n2)
+
+        escreva("Informe outro número: ")
+        leia(n3)
+
+        escreva("Informe outro número: ")
+        leia(n4)
+
+        escreva("Informe outro número: ")
+        leia(n5)
+
+        soma = n1 + n2 + n3 + n4 + n5
+        media = soma / 5
+
+        escreva("A soma dos números digitados é: ", soma, " e a média é: ", media)
+	}
+}
