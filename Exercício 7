@@ -1,0 +1,19 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro n
+		
+		escreva("Informe uma nota entre 0 e 10: ")
+		leia(n)
+
+		enquanto(n < 0 ou n > 10)
+		{
+			escreva("Valor inválido! Tente novamente: ")
+			leia(n)
+		}
+
+		escreva("Valor válido!")
+	}
+}
