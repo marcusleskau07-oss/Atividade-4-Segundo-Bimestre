@@ -1,0 +1,42 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro p_A 
+		inteiro p_B
+		real taxa_A
+		real taxa_B
+		inteiro anos = 0
+		inteiro crescimento_A
+		inteiro crescimento_B
+
+		escreva("Informe o número de habitantes da população A: ")
+		leia(p_A)
+		enquanto(p_A <= 0)
+		{
+			escreva("Valor inválido! Tente outro valor: ")
+			leia(p_A)
+		}
+		escreva("Informe o número de habitantes da população B: ")
+		leia(p_B)
+		enquanto(p_B <= 0)
+		{
+			escreva("Valor inválido! Tente outro valor: ")
+			leia(p_B)
+		}
+		escreva("Me informe a primeira taxa de crescimento: ")
+		leia(taxa_A)
+		escreva("Me informe a segunda taxa de crescimento: ")
+		leia(taxa_B)
+		enquanto (p_A < p_B)
+		{
+         crescimento_A = (p_A * taxa_A) / 100
+         crescimento_B = (p_B * taxa_B) / 100
+         p_A = p_A + crescimento_A
+         p_B = p_B + crescimento_B
+         anos++
+    }
+        escreva("Demorará ", anos, " anos para a população A ter uma população igual ou maior que a população B")
+	}
+}
