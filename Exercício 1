@@ -1,0 +1,26 @@
+programa
+{
+inteiro n = 0
+	
+funcao A()
+	{
+		enquanto(n <= 20)
+		{
+			escreva(n, "\n")
+			n++	
+		}
+		}
+	funcao B()
+	{
+		para(inteiro n2 = 0; n2 <= 20; n2++)
+		{
+			escreva(n2, "\n")
+		}
+		
+	}
+	funcao inicio()
+	{
+	A()
+	B()
+	}
+}
