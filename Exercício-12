@@ -1,0 +1,44 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro n1, n2, n3, n4, n5
+
+        escreva("Informe um número: ")
+        leia(n1)
+
+        escreva("Informe outro número: ")
+        leia(n2)
+
+        escreva("Informe outro número: ")
+        leia(n3)
+
+        escreva("Informe outro número: ")
+        leia(n4)
+
+        escreva("Informe outro número: ")
+        leia(n5)
+
+        se(n1 > n2 e n1 > n3 e n1 > n4 e n1 > n5)
+        {
+            escreva("O maior número é o: ", n1)
+        }
+        senao se(n2 > n1 e n2 > n3 e n2 > n4 e n2 > n5)
+        {
+            escreva("O maior número é o: ", n2)
+        }
+        senao se(n3 > n1 e n3 > n2 e n3 > n4 e n3 > n5)
+        {
+            escreva("O maior número é o: ", n3)
+        }
+        senao se(n4 > n1 e n4 > n2 e n4 > n3 e n4 > n5)
+        {
+            escreva("O maior número é o: ", n4)
+        }
+        senao
+        {
+            escreva("O maior número é o: ", n5)
+        }
+	}
+}
