@@ -1,0 +1,16 @@
+programa
+{
+	
+inteiro n
+	funcao inicio()
+	{
+	leia(n)
+		para(inteiro n2 = 1; n2 <= n; n2++){
+			escreva(n2, "\n")
+		}
+		escreva("\n\n\n")
+		para(inteiro n3 = n; n3 >= 1; n3--){
+			escreva(n3, "\n")
+		}
+	}
+}
